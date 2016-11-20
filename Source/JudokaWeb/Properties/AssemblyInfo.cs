@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Judoka")]
+[assembly: AssemblyTitle("JudokaWeb")]
 [assembly: AssemblyDescription("Judoka is an application to gather judo clubs, their athletes and competitions. It collects and displays the overall information around a judoka and their judo life.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Rickard Nisses-Gagnér")]

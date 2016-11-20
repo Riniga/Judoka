@@ -5,7 +5,7 @@ using System.Web.Routing;
 using System.Web.Http;
 using System.Web.Optimization;
 
-namespace Judoka
+namespace JudokaWeb
 {
     public class Global : HttpApplication
     {

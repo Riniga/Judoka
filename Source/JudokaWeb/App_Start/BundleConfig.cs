@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace Judoka
+namespace JudokaWeb
 {
     public class BundleConfig
     {
@@ -9,7 +9,7 @@ namespace Judoka
             bundles.Add(new ScriptBundle("~/bundles/scripts").Include(
                         "~/Content/js/jquery-{version}.js",
                         "~/Content/js/boostrap.js",
-                        "~/Content/js/judoka.js"));
+                        "~/Content/js/JudokaWeb.js"));
 
             bundles.Add(new StyleBundle("~/bundles/styles").Include(
                         "~/Content/css/bootstrap.css",
