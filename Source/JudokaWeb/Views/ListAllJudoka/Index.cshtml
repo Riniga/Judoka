@@ -1,0 +1,46 @@
+﻿@{
+    Layout = Layout = "~/Views/Layouts/DefaultLayoutView.cshtml";
+    ViewBag.Title = "List all judoka";
+    JudokaWeb.Models.SortingPagingInfo info = ViewBag.SortingPagingInfo;
+}
+
+
+@section MainSection
+{
+    <h1>Listar alla judoka</h1>
+
+    
+@Html.Hidden("SortField", info.SortField)
+@Html.Hidden("SortDirection", info.SortDirection)
+@Html.Hidden("PageCount", info.PageCount)
+@Html.Hidden("PageSize", info.PageSize)
+@Html.Hidden("CurrentPageIndex", info.CurrentPageIndex)
+@Html.Hidden("ApiController", "/api/Judokas")
+
+<table border="1" cellpadding="10" id="TableWithSortingAndPagination" class="table">
+        <tr class="headerRow">
+            <th>
+                <a href="#" data-sortfield="LastName" class="header">Last Name</a>
+            </th>
+            <th>
+                <a href="#" data-sortfield="FirstName" class="header">First Name</a>
+            </th>
+            <th>
+                <a href="#" data-sortfield="Personnumber" class="header">Personnumber</a>
+            </th>
+            <th>
+                <a href="#" data-sortfield="Id" class="header">Visa</a>
+            </th>
+        </tr>
+        <tr class="pagerRow">
+            <td colspan="4">
+                @for (var i = 0; i < info.PageCount; i++)
+                {
+                    <a href="#" data-pageindex="@i"
+                       class="pager">@(i + 1)</a>
+                }
+            </td>
+        </tr>
+</table>
+
+}

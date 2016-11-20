@@ -5,3 +5,7 @@ body {
   padding: 40px 15px;
   text-align: left;
 }
+.pager {
+    float: left;
+    padding-left: 10px;
+}
