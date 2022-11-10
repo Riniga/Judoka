@@ -1,0 +1,70 @@
+﻿extends ../templates/startpage.pug
+block content
+    
+    main.container
+        div
+          hgroup
+            h1 Kalendar
+            h2 Du kan filtrera händelser med filter nedan.
+          div.grid
+            div
+                select
+                    option(value='type') 2022
+                    option(value='type') 2023
+                    option(value='type') 2024
+            div(align='right')
+                small 
+                    a jan | 
+                small 
+                    a feb | 
+                small 
+                    a mar | 
+                small 
+                    a apr | 
+                small 
+                    a maj |  
+                small 
+                    a jun | 
+                small 
+                    a jul | 
+                small 
+                    a jun | 
+                small 
+                    a aug | 
+                small 
+                    a sep |  
+                small 
+                    a okt | 
+                small 
+                    a nov | 
+                small 
+                    a dec | 
+          div.grid 
+            div
+                select
+                    option(value='type') Välj klubb
+                    option(value='type') Ängelholms Judklubb
+                    option(value='type') Läger
+                    option(value='type') Klubbevent
+            div
+                select
+                    option(value='type') Välj typ av event
+                    option(value='type') Tävling
+                    option(value='type') Läger
+                    option(value='type') Klubbevent
+
+                    
+        table#calendarTable(role='grid')
+          thead
+            tr
+              th Datum
+              th Namn
+              th Typ
+              th Arrangör
+              th Stad
+              
+            
+
+
+block scripts 
+    script(src="/scripts/calendar.js")

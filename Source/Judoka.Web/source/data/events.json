@@ -1,0 +1,144 @@
+﻿{
+	"events": [
+		{
+			"id":  "1",
+			"image": "https://smoothcomp.com/pictures/t/1870155-shc5/vastgota-serien-3-2022-boras.jpg",
+			"link": "https://smoothcomp.com/en/event/9190",
+			"name": "Västgöta serien 3 2022 Borås",
+			"city": "Borås",
+			"date": "November 27",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "2",
+			"image": "https://smoothcomp.com/pictures/t/1921635-6drr/judits-pokal-4-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/8809",
+			"name": "Judits Pokal 4 2022",
+			"city": "Göteborg",
+			"date": "November 12",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "3",
+			"image": "https://smoothcomp.com/pictures/t/1724721-e2fn/trolltraffen-2-lag-mix-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/8572",
+			"name": "Trollträffen 2 Lag Mix 2022",
+			"city": "Trollhättan",
+			"date": "November 19",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "4",
+			"image": "https://smoothcomp.com/pictures/t/1576940-wnrv/trolltraffen-2-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/7975",
+			"name": "TROLLTRÄFFEN 2 2022",
+			"city": "Trollhättan",
+			"date": "November 19 - 20",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "5",
+			"image": "https://smoothcomp.com/pictures/t/1905507-k6bx/pokaljakten-newaza-open-4-dm-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/9077",
+			"name": "Pokaljakten, Newaza Open 4 &amp; DM",
+			"city": "Norrköping",
+			"date": "November 12",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "6",
+			"image": "https://smoothcomp.com/pictures/t/1833012-nddf/pokaljakten-4-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/9013",
+			"name": "Pokaljakten 4 2022",
+			"city": "Karlstad",
+			"date": "November 13",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "7",
+			"image": "https://smoothcomp.com/pictures/t/1649396-9nqg/arboga-judo-cup-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/7757",
+			"name": "Arboga Judo Cup 2022",
+			"city": "Arboga",
+			"date": "November 19",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "8",
+			"image": "https://smoothcomp.com/pictures/t/1723379-8rvs/lag-sm-2022-granska-och-aterkoppla-saknar-pris-pa-bankett-men-annars-allt-med.jpg",
+			"link": "https://smoothcomp.com/en/event/8458",
+			"name": "Lag-SM 2022",
+			"city": "Lindesberg",
+			"date": "December 10",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "9",
+			"image": "https://smoothcomp.com/pictures/t/1705233-nnum/swedish-a-judo-open-2023.jpg",
+			"link": "https://smoothcomp.com/en/event/7616",
+			"name": "Swedish A-Judo Open 2023",
+			"city": "Lindesberg",
+			"date": "2023 May 18 - 21",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "10",
+			"image": "https://smoothcomp.com/pictures/t/1694016-45we/sodra-judo-open-4-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/8045",
+			"name": "Södra Judo open 4 2022",
+			"city": "haninge",
+			"date": "November 26",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "11",
+			"image": "https://smoothcomp.com/pictures/t/1824958-rmwn/lagserie-mix-1-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/8766",
+			"name": "Mixlagserie Deltävling 1",
+			"city": "Stockholm",
+			"date": "November 12",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "12",
+			"image": "https://smoothcomp.com/pictures/t/1849591-m2tu/judo-sm-2023-ej-klar.jpg",
+			"link": "https://smoothcomp.com/en/event/8616",
+			"name": "Judo-SM 2023",
+			"city": "Stockholm",
+			"date": "2023 February 04 - 05",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "13",
+			"image": "https://smoothcomp.com/pictures/t/1955734-wj51/uppsala-judo-cup-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/9074",
+			"name": "Uppsala Judo Cup",
+			"city": "Uppsala",
+			"date": "December 03",
+			"club": "Borås",
+			"type": "Tävling"
+		},
+		{
+			"id": "14",
+			"image": "https://smoothcomp.com/pictures/t/1484802-w7w2/judo-sundsvalls-cup-2-2022.jpg",
+			"link": "https://smoothcomp.com/en/event/7610",
+			"name": "Judo Sundsvalls Cup 2, 2022",
+			"city": "Sundsvall",
+			"date": "December 17",
+			"club": "Borås",
+			"type": "Tävling"
+		}
+	]
+}
