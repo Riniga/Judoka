@@ -104,3 +104,13 @@ article .hero{
 body > footer {
     padding: 1rem 0;
 }
+
+input[type="radio"] {
+    visibility: hidden;
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    text-decoration: underline;
+} 

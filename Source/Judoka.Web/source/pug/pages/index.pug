@@ -8,50 +8,48 @@ block content
             h2 Du kan filtrera händelser med filter nedan.
           div.grid
             div
-                select
-                    option(value='type') 2022
-                    option(value='type') 2023
-                    option(value='type') 2024
+                select#filteryear(onchange="filterPage()")
+                    option(value='2022') 2022
+                    option(value='2023') 2023
+                    option(value='2024') 2024
             div(align='right')
-                small 
-                    a jan | 
-                small 
-                    a feb | 
-                small 
-                    a mar | 
-                small 
-                    a apr | 
-                small 
-                    a maj |  
-                small 
-                    a jun | 
-                small 
-                    a jul | 
-                small 
-                    a jun | 
-                small 
-                    a aug | 
-                small 
-                    a sep |  
-                small 
-                    a okt | 
-                small 
-                    a nov | 
-                small 
-                    a dec | 
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="0") 
+                label(for="0") jan
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="1") 
+                label(for="1") feb
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="2") 
+                label(for="2") mar
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="3") 
+                label(for="3") apr
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="4") 
+                label(for="4") maj
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="5") 
+                label(for="5") jun
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="6") 
+                label(for="6") jul
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="7") 
+                label(for="7") aug
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="8") 
+                label(for="8") sep
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="9") 
+                label(for="9") okt
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="10") 
+                label(for="10") nov
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="11")
+                label(for="11") dec
+                input(type="radio" name="filtermonth" onchange="filterPage()" id="all")
+                label(for="all") alla
+                
           div.grid 
             div
-                select
-                    option(value='type') Välj klubb
-                    option(value='type') Ängelholms Judklubb
-                    option(value='type') Läger
-                    option(value='type') Klubbevent
+                select#filter_districts(onchange="filterPage()")
+                    option(value='all') Alla Distrikt
             div
-                select
-                    option(value='type') Välj typ av event
-                    option(value='type') Tävling
-                    option(value='type') Läger
-                    option(value='type') Klubbevent
+                select#filtertype(onchange="filterPage()")
+                    option(value='all') Alla kategorier
+                    option(value='Gradering') Gradering
+                    option(value='Läger') Läger
+                    option(value='Tävling') Tävling
 
                     
         table#calendarTable(role='grid')
@@ -60,10 +58,7 @@ block content
               th Datum
               th Namn
               th Typ
-              th Arrangör
-              th Stad
-              
-            
+              th Distrikt
 
 
 block scripts 
