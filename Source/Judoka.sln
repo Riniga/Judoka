@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JudokaWeb", "JudokaWeb\JudokaWeb.csproj", "{553A846F-5202-4F66-8A19-C2F2F70B7D08}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JudokaDataModel", "JudokaDataModel\JudokaDataModel.csproj", "{F884A8A0-CDF4-42BA-9015-6268927F8296}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Judoka.VideoStreamCapture", "Judoka.VideoStreamCapture\Judoka.VideoStreamCapture.csproj", "{602684E4-DB4B-456E-9134-9D1CD90478B6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Judoka.VideoStreamStorage", "Judoka.VideoStreamStorage\Judoka.VideoStreamStorage.csproj", "{36E93AF4-0A03-4159-833F-140B6A9A92CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Judoka.VideoStreamView", "Judoka.VideoStreamView\Judoka.VideoStreamView.csproj", "{FC787883-407E-406F-B11B-194CD386BFEC}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Judoka.Web", "Judoka.Web\Judoka.Web.njsproj", "{2F385EAA-BB9B-4EC2-9C66-F1190277420A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,22 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{553A846F-5202-4F66-8A19-C2F2F70B7D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{553A846F-5202-4F66-8A19-C2F2F70B7D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{553A846F-5202-4F66-8A19-C2F2F70B7D08}.Debug|x86.ActiveCfg = Debug|x86
-		{553A846F-5202-4F66-8A19-C2F2F70B7D08}.Debug|x86.Build.0 = Debug|x86
-		{553A846F-5202-4F66-8A19-C2F2F70B7D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{553A846F-5202-4F66-8A19-C2F2F70B7D08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{553A846F-5202-4F66-8A19-C2F2F70B7D08}.Release|x86.ActiveCfg = Release|x86
-		{553A846F-5202-4F66-8A19-C2F2F70B7D08}.Release|x86.Build.0 = Release|x86
-		{F884A8A0-CDF4-42BA-9015-6268927F8296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F884A8A0-CDF4-42BA-9015-6268927F8296}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F884A8A0-CDF4-42BA-9015-6268927F8296}.Debug|x86.ActiveCfg = Debug|x86
-		{F884A8A0-CDF4-42BA-9015-6268927F8296}.Debug|x86.Build.0 = Debug|x86
-		{F884A8A0-CDF4-42BA-9015-6268927F8296}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F884A8A0-CDF4-42BA-9015-6268927F8296}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F884A8A0-CDF4-42BA-9015-6268927F8296}.Release|x86.ActiveCfg = Release|x86
-		{F884A8A0-CDF4-42BA-9015-6268927F8296}.Release|x86.Build.0 = Release|x86
 		{602684E4-DB4B-456E-9134-9D1CD90478B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{602684E4-DB4B-456E-9134-9D1CD90478B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{602684E4-DB4B-456E-9134-9D1CD90478B6}.Debug|x86.ActiveCfg = Debug|x86
@@ -61,6 +43,14 @@ Global
 		{FC787883-407E-406F-B11B-194CD386BFEC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC787883-407E-406F-B11B-194CD386BFEC}.Release|x86.ActiveCfg = Release|x86
 		{FC787883-407E-406F-B11B-194CD386BFEC}.Release|x86.Build.0 = Release|x86
+		{2F385EAA-BB9B-4EC2-9C66-F1190277420A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F385EAA-BB9B-4EC2-9C66-F1190277420A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F385EAA-BB9B-4EC2-9C66-F1190277420A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2F385EAA-BB9B-4EC2-9C66-F1190277420A}.Debug|x86.Build.0 = Debug|Any CPU
+		{2F385EAA-BB9B-4EC2-9C66-F1190277420A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F385EAA-BB9B-4EC2-9C66-F1190277420A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F385EAA-BB9B-4EC2-9C66-F1190277420A}.Release|x86.ActiveCfg = Release|Any CPU
+		{2F385EAA-BB9B-4EC2-9C66-F1190277420A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
